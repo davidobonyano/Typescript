@@ -5,7 +5,7 @@ type user = {
     creditdetails?: number
 }
 
-function createUser(user: user): user{
+function createUser(): user{
     return({name:"", email: "", isActive: false})
 }
 
